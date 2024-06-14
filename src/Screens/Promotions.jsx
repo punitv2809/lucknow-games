@@ -3,9 +3,9 @@ import { BiCoin } from 'react-icons/bi';
 
 const Promotions = () => {
     return (
-        <div className='grid grid-cols-12 p-12 gap-8 text-justify'>
+        <div className='grid grid-cols-12 p-12 gap-0 md:gap-8 space-y-12 md:space-y-0 text-justify'>
             <div className="col-span-12 md:col-span-4 space-y-4">
-                <p className='text-red-600 text-4xl font-bold'>Wingo Color Prediction Game</p>
+                <p className='text-red-600 text-4xl font-bold'>Wingo-Color Prediction Game</p>
                 <p>The Wingo Color Prediction Game has become a favorite among online gaming enthusiasts in India, known for its simplicity and the excitement it offers. This game, which revolves around predicting colors, is an easy yet thrilling way to win prizes. Its popularity stems from its straightforward gameplay, appealing to everyone who loves a bit of fun competition and the chance to win.</p>
                 <p>Wingo stands out in the world of color prediction games due to its quick and engaging format. Whether you’re looking for a quick game to brighten up your day or a fun challenge to test your prediction skills, Wingo has something for everyone. This game has drawn a vast audience in India, captivated by its simple approach and the potential for rewards.</p>
             </div>
