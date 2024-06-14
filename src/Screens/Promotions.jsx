@@ -3,7 +3,7 @@ import { BiCoin } from 'react-icons/bi';
 
 const Promotions = () => {
     return (
-        <div className='grid grid-cols-12 p-12 gap-8'>
+        <div className='grid grid-cols-12 p-12 gap-8 text-justify'>
             <div className="col-span-12 md:col-span-4 space-y-4">
                 <p className='text-red-600 text-4xl font-bold'>Wingo Color Prediction Game</p>
                 <p>The Wingo Color Prediction Game has become a favorite among online gaming enthusiasts in India, known for its simplicity and the excitement it offers. This game, which revolves around predicting colors, is an easy yet thrilling way to win prizes. Its popularity stems from its straightforward gameplay, appealing to everyone who loves a bit of fun competition and the chance to win.</p>
@@ -24,7 +24,7 @@ const Promotions = () => {
                 <p>5D Lotre takes the traditional lottery game to the next level with five-digit combinations. Players select their five-digit numbers and participate in draws to see if they can match the winning combination. The game offers higher stakes and greater rewards, making it an exciting option for lottery fans looking for a bigger challenge.</p>
                 <p>5D Lotre is designed for those who enjoy the complexity and anticipation of multi-digit lottery games. The added digits increase the potential for larger prizes, adding to the excitement and appeal of the game.</p>
             </div>
-            <div className="col-span-4">
+            <div className="col-span-4 flex items-center justify-center">
                 <div className="rounded-full text-red-600 size-12 md:size-52 hover:rotate-45 transition-all relative border-2 border-red-600/50 flex items-center justify-center">
                     <img src="coin-1.png" alt="" />
                 </div>
