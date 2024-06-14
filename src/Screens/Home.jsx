@@ -9,6 +9,7 @@ import { CgCheck } from 'react-icons/cg'
 import SliderCard from '../Components/SliderCard'
 import Footer from '../Components/Footer'
 import { motion } from 'framer-motion';
+import Promotions from './Promotions'
 
 const Home = () => {
     return (
@@ -154,6 +155,7 @@ const Home = () => {
                 </div>
 
             </div>
+            <Promotions />
             <div className="testimonials bg-red-600 text-white m-4 md:m-8 lg:m-12 p-4 md:p-8 lg:p-12 rounded-3xl relative">
                 <div className="p-4 md:p-8 lg:p-12 flex flex-col md:flex-row">
                     <div className="flex-grow flex flex-col gap-2 mb-4 md:mb-0">
