@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    @apply bg-base;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #aa0707;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    @apply bg-base;
+    @apply overflow-x-hidden;
+  }
+
+  .glass {
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+  }
+}
