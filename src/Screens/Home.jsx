@@ -31,7 +31,7 @@ const Home = () => {
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 1 }}
                         className="z-50">
-                        <a href='https://www.lucknowgames.in/register?' className='z-50 transition-all duration-500 hover:bg-white hover:text-red-500 hover:border-white inline-flex gap-2 items-center border rounded-full p-3 px-6 capitalize'>
+                        <a href='https://lucknowgames.fun/register?invite_code=B68159060004' className='z-50 transition-all duration-500 hover:bg-white hover:text-red-500 hover:border-white inline-flex gap-2 items-center border rounded-full p-3 px-6 capitalize'>
                             <p>Register</p>
                             <GoArrowRight size={20} />
                         </a>
@@ -206,7 +206,7 @@ const Home = () => {
                             <p className="text-lg md:text-xl font-bold">Akash Kumar (Lucknow)</p>
                             <div className="flex items-center font-bold">
                                 <BiRupee size={22} />
-                                <p>2,56,349</p>
+                                <p>3,72,349</p>
                             </div>
                             <img src="coin-1.png" alt="coin" className="absolute right-10 md:right-16 lg:right-20 bottom-6 md:bottom-8 lg:bottom-10" />
                         </div>
@@ -217,7 +217,7 @@ const Home = () => {
                             <p className="text-lg md:text-xl font-bold">Priya Sharma (Kanpur)</p>
                             <div className="flex items-center font-bold">
                                 <BiRupee size={22} />
-                                <p>2,56,349</p>
+                                <p>2,56,810</p>
                             </div>
                             <img src="coin-1.png" alt="coin" className="absolute -rotate-12 right-10 md:right-16 lg:right-20 bottom-6 md:bottom-8 lg:bottom-10" />
                         </div>
@@ -228,13 +228,13 @@ const Home = () => {
                             <p className="text-lg md:text-xl font-bold">Rahul Singh (Varanasi)</p>
                             <div className="flex items-center font-bold">
                                 <BiRupee size={22} />
-                                <p>2,56,349</p>        </div>
+                                <p>1,56,578</p>        </div>
                             <img src="coin-1.png" alt="coin" className="absolute -rotate-45 right-10 md:right-16 lg:right-20 bottom-6 md:bottom-8 lg:bottom-10" />
                         </div>
                     </div>
                 </div>
                 <div className="text-center mt-8">
-                    <a href="https://www.lucknowgames.in" className="inline-flex gap-4 items-center px-4 py-2 font-medium text-center text-white bg-red-600 rounded-md hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300">
+                    <a href="https://lucknowgames.fun/register?invite_code=B68159060004" className="inline-flex gap-4 items-center px-4 py-2 font-medium text-center text-white bg-red-600 rounded-md hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300">
                         Play Now & Be a Winner!
                         <svg className="-ml-2 mr-2 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />

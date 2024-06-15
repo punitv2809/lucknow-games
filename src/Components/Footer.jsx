@@ -1,12 +1,12 @@
 import React from 'react'
-import { BsCashCoin } from 'react-icons/bs'
+import { BsCashCoin, BsTelegram } from 'react-icons/bs'
 import Logo from './Logo'
 import { CgCheck } from 'react-icons/cg'
 
 const Footer = () => {
     return (
         <div className='bg-red-600 text-white divide-y divide-white/25 text-sm relative'>
-            <img src="lotterycategory_k3.png" alt="decor" className='absolute -top-48 md:-top-36 lg:-top-48'/>
+            <img src="lotterycategory_k3.png" alt="decor" className='absolute -top-48 md:-top-36 lg:-top-48' />
             <div className="flex flex-col md:flex-row">
                 <div className="grow p-6 md:p-12 justify-center capitalize flex items-center gap-4">
                     <div className="size-16 flex-shrink-0 rounded-full bg-red-500 flex items-center justify-center">
@@ -22,12 +22,17 @@ const Footer = () => {
                 </div>
             </div>
             <div className="p-12 px-12 lg:px-56 grid grid-cols-12 gap-8 lg:gap-0">
-                <div className="col-span-12 md:col-span-4 space-y-4 lg:space-y-2">
+                <div className="col-span-12 md:col-span-4 space-y-6 lg:space-y-4">
                     <div className="flex items-center gap-2">
                         <img src="logo.png" alt="" />
                         <p className='text-3xl font-medium'>Lucknow Games</p>
                     </div>
                     <p>Your one-stop destination for thrilling experiences and the chance to win big! We offer a diverse range of lottery and casino games, catering to every taste and preference.</p>
+                    <a
+                        href='https://t.me/lucknow_achieve_dream' className="item flex items-center gap-2 text-white capitalize font-black">
+                        <BsTelegram size={30} className='flex-shrink-0' />
+                        <p>telegram channel</p>
+                    </a>
                 </div>
                 <div className="col-span-12 md:col-span-4 space-y-4">
                     <div className="capitalize text-2xl mb-3">
