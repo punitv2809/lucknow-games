@@ -22,9 +22,9 @@ const Home = () => {
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 1 }}
                         className="text-4xl md:text-7xl text-left font-bold z-20">
-                        <p>Lucknow Games</p>
-                        <p>Where Excitement</p>
-                        <p>Meets Big Wins</p>
+                        <h1>Lucknow Games</h1>
+                        <h1>Where Excitement</h1>
+                        <h1>Meets Big Wins</h1>
                     </motion.div>
                     <motion.div
                         initial={{ x: -200, opacity: 0 }}
